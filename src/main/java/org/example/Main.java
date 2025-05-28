@@ -31,6 +31,5 @@ public class Main {
         log.info("   • Könyvek API: http://localhost:{}{}/api/books", port, contextPath);
         log.info("   • Szerzők API: http://localhost:{}{}/api/authors", port, contextPath);
         log.info("   • H2 Konzol: http://localhost:{}{}/h2-console", port, contextPath);
-        log.info("💡 Használjon HTTP klienst (Postman, curl) a teszteléshez!");
     }
 }
