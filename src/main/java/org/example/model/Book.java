@@ -7,7 +7,7 @@ import lombok.ToString;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
-@Table(name = "books")
+@Table(name = "book")  // egyes szám
 @Data
 @EqualsAndHashCode(exclude = "author")
 @ToString(exclude = "author")

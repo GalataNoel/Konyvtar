@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "authors")
+@Table(name = "author")  // egyes szám
 @Data
 @EqualsAndHashCode(exclude = "books")
 @ToString(exclude = "books")
