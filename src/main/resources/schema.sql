@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS author (
+    id BIGINT PRIMARY KEY,
+    name VARCHAR(255)
+);
